@@ -15,6 +15,7 @@ Key highlights
 - `models/best_model.pt` — Trained model weights (not committed to the repo by default).
 - `requirements.txt` — Project dependencies.
 
+
 ## 📊 Dataset
 
 The project uses the Traffic Sign Recognition dataset from Roboflow with 14 classes:
@@ -22,10 +23,15 @@ crosswalk, direction, green, red
 Speed limits: speed30, speed40, speed50, speed60, speed70, speed80, speed90, speed100, speed120,stop
 
 Dataset Statistics:
+
 Train: 1,475 images
+
 Validation: 421 images
+
 Test: 211 images
+
 Total: 2,107 annotated images
+
 
 
 ## Evaluation metrics'results

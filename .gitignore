@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment / secret files (do NOT commit API keys)
+.env
+.env.*
+credentials.json
+secrets.yml
+*.key
+*.secret
+*api_key*
+*apikey*
+*credentials*
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data, datasets and model weights
+data/
+datasets/
+raw_data/
+processed_data/
+models/
+models/*.pt
+models/*.pth
+models/best_model.pt
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Logs, runs and experiment outputs
+logs/
+*.log
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+# Packaging / build
+dist/
+build/
+*.egg-info/
+
+# IDEs and OS files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg
+*.whl
+
+# Temporary files
+*.tmp
+*.bak
+
+# Ignore local notebooks or temp notebook exports if you create them
+*.nbconvert.ipynb
+
+# Optional: ignore the workspace's virtualenv (if present)
+.venv/
+

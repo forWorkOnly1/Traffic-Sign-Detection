@@ -73,3 +73,6 @@ Thumbs.db
 # Optional: ignore the workspace's virtualenv (if present)
 .venv/
 
+# Ignore files
+app.py
+inspect_model.py

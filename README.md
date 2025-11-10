@@ -12,10 +12,25 @@ Key highlights
 ## Contents
 
 - `traffic_detection_project.ipynb` — Notebook containing dataset download, training, evaluation, and visualizations.
-- `app.py` — Optional Gradio demo (if present) to test the model in a browser.
-- `inspect_model.py` — Small utility to run inference using local weights.
 - `models/best_model.pt` — Trained model weights (not committed to the repo by default).
 - `requirements.txt` — Project dependencies.
+
+## 📊 Dataset
+
+The project uses the Traffic Sign Recognition dataset from Roboflow with 14 classes:
+crosswalk, direction, green, red
+Speed limits: speed30, speed40, speed50, speed60, speed70, speed80, speed90, speed100, speed120,stop
+
+Dataset Statistics:
+Train: 1,475 images
+Validation: 421 images
+Test: 211 images
+Total: 2,107 annotated images
+
+
+## Evaluation metrics'results
+![Training Metrics](evaluation.png)
+
 
 ## Quickstart (Windows PowerShell)
 
@@ -56,17 +71,6 @@ python inspect_model.py --weights models/best_model.pt --image path\to\image.jpg
 # Expected: image with bounding boxes saved locally or printed JSON of detections
 ```
 
-- To launch the Gradio demo (if `app.py` exists):
-
-```powershell
-python app.py
-# Follow the local URL shown in the console
-```
-
-## Outputs & location
-
-- Training logs, plots and checkpoints are saved under `runs/` by default when using Ultralytics/YOLO training utilities.
-- Final weights (e.g., `best.pt`) are typically created in `runs/detect/train/` but may be moved to `models/` for convenience.
 
 ## Notes & troubleshooting
 
@@ -79,14 +83,14 @@ python app.py
 - Open issues for bugs or feature requests.
 - Submit pull requests with tests or reproducible examples where possible.
 
-## License
+## 🙏 Acknowledgments
 
-Specify the project license here (e.g., MIT). Add a `LICENSE` file at repo root.
+Ultralytics for YOLOv8
+Roboflow for the dataset
+Google Colab for GPU resources
 
-## Maintainer / Contact
 
-Provide maintainer name and contact (email or GitHub profile).
-
----
+## 📞 Contact
+amiridouaa3@gmail.com
 
 

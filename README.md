@@ -1,7 +1,8 @@
 
 # Traffic Sign Detection with YOLOv8
 
-Short description
+Short description:
+
 Detects and classifies traffic signs using a YOLOv8 model trained on a Roboflow custom dataset. This repository contains the training notebook, a small inference utility, and an optional Gradio demo for quick testing.
 
 Key highlights
